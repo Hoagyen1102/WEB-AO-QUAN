@@ -1,4 +1,5 @@
 <?php
+session_start();
 if (isset($_SESSION['username']) && $_SESSION['username']){
     echo "<a href='index.php?quanly=user'>".'<li> Profile '.$_SESSION['username'].'!</a></li>'."<br/>";
 ?>

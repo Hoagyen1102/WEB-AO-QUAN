@@ -18,6 +18,10 @@
         include("loginmb.php");  
     }elseif($tam=='loginad'){
         include("loginad.php");  
+    }elseif($tam=='signupmb'){
+        include("signupmb.php");  
+    }elseif($tam=='signupad'){
+        include("signupad.php");  
     }else{
         include("main.php");
     }

@@ -16,7 +16,7 @@
 	header('Content-Type: text/html; charset=UTF-8');
 	if (isset($_POST['login'])) 
 	{
-	    include('connect.php');
+	    include('ketnoi.php');
 	     
 	    //Lấy dữ liệu nhập vào
 	    $username = addslashes($_POST['username']);
@@ -48,7 +48,7 @@
 	    //Lưu tên đăng nhập
 	    $_SESSION['username'] = $username;
 		$_SESSION['id'] = "member";
-	    header("location: /SPTO/index.php");
+	    header("location: /WEB-AO-QUAN/index.php");
 		exit;
 }
 ?>
