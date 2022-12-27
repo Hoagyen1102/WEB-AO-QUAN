@@ -14,6 +14,10 @@
         include("logout.php");  
     }elseif($tam=='signup'){
         include("signup.php");  
+    }elseif($tam=='loginmb'){
+        include("loginmb.php");  
+    }elseif($tam=='loginad'){
+        include("loginad.php");  
     }else{
         include("main.php");
     }
