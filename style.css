@@ -1,0 +1,264 @@
+body{
+    font-family: calibri;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #ddd;
+}
+
+.rowl{
+    float: left;
+    width: 10%;
+    padding-left: 30px;
+}
+.rowl img{
+    width: 110px;
+    height: 70px;
+}
+
+.rowr{
+    float: left;
+    width: 80%;
+    padding-top: 15px;
+}
+
+.GH{
+    margin-top: -27px;
+    margin-left: 420px;
+    width: 100px;
+}
+.GH img{
+    width: 30px;
+    height: 30px;
+}
+.GH a{
+    text-decoration: none;
+    color: #ff884d;
+    font-weight: bold;
+    font-size:17px;
+}
+
+ul.list_menu{
+    padding: 0;
+    list-style: none;
+    margin-left: 520px;
+    line-height: 3px;
+}
+ul.list_menu li{
+    float: left;
+    margin-right: 0px;
+    margin-left: 35px;
+}
+ul.list_menu li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+ul.list_menu li:hover{
+    border-radius: 2px;
+}
+ul.list_menu a:hover{
+    color:  #ff884d;
+}
+ul.list_menu ul.sub_menu{
+    position: absolute;
+    padding: 5px 20px;
+    list-style: none;
+    width: 104px;
+    margin-top: 28px;
+    border-radius: 5px;
+    display: none;
+}
+ul.list_menu ul.sub_menu a{
+    padding: 8px 15px;
+    font-weight: bold;
+    left:0;
+}
+ul.list_menu ul.sub_menu li{
+    margin: 20px 0px; 
+}
+ul.list_menu ul.sub_menu a:hover{
+    color: white;
+}
+ul.list_menu li:hover ul.sub_menu{
+    display: block;
+    background-color: #ff884d;
+}
+
+.timkiem{
+    margin-left: 780px;
+}
+.timkiem input[type="text"]
+{
+    width: 300px;
+    height: 20px;
+    border-radius: 20px;
+}
+.timkiem input[type="submit"]
+{
+    height: 24px;
+    background-color: #ff884d;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.menu{
+    background-image: url(img/màu.jpg);
+    height: 20px;
+    margin-top: -20px;
+    background-color: white;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ff884d;
+}
+
+.main{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.main h2{
+    text-align: center;
+}
+.text{
+    margin-top: 50px;
+    border: 2px solid #ff884d;
+    justify-items: center;
+    height: 70px;
+}
+.banner{
+    float: left;
+    width: 100%;
+    background-color:white;
+    font-size: 15px;
+    height: auto;
+}
+.slider{
+    width: 1520px;
+    height: 400px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 1s;
+}
+.slide img{
+    margin-left: 197px;
+    width: 1131px;
+    height: 400px;
+    border-radius: 20px;
+}
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+.pro{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 20px;
+    width: 15%;
+    padding: 10px;
+}
+
+.pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+.pro-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content:  space-between;
+    padding: 20px ;
+    margin: 40px;
+    flex-wrap:  wrap;
+}
+
+.pro img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+.pro .des span{
+    color: #606063;
+    font-size: 15px;
+}
+
+.pro .des i{
+    font-size:12px ;
+    color: rgb(243, 181, 25);
+}
+
+
+.pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+
+.footer{
+  background-color: #ff884d;
+  height: 240px;
+  width: 100%;
+  color: white;
+}
+ul.footer_a{
+  padding: 0px;
+  list-style: none;
+  margin-left: 35px;
+  width: 22%;
+  margin-top: -10px;
+  float: left;
+}
+ul.footer_a li{
+  width: 100%;
+  margin: 10px;
+  float: left;
+  height: 10px;
+  font-size: 15px;
+}
+ul.footer_a li a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+ul.footer_a h3{
+  margin-top: 30px;
+}
+ul.footer_a img{
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+} 
+
+.clear{
+    clear: both;
+}
