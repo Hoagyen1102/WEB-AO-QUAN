@@ -12,6 +12,7 @@ else{
     <a href='index.php?quanly=login' title='loginmb'>
     <input type= "button" name = "login" value = "login">
 	</a>
+    <br>
     <a href='index.php?quanly=signup' title='loginmb'>
     <input type= "button" name = "signup" value = "signup">
 	</a>

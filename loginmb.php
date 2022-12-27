@@ -6,7 +6,7 @@
                 <br>
                 Mật khẩu <input type = "password" name = "password" placeholder = "********" required/>
                 <br>
-                <input type = "submit" name = "login" value = "Log in"/>
+                <input type = "submit" name = "login" value = "Đăng nhập"/>
 		        <br>
 		        Chưa có tài khoản? <a href='index.php?quanly=signupmb' title='signup'>Đăng ký ngay</a>
         </eenter>

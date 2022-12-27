@@ -10,9 +10,9 @@
                 <br>
                 Số điện thoại <input type = "text" name = "phonenumber" placeholder = "XXXXXXXXXX" required/>
                 <br>
-                <input type = "submit" name="signup" value = "Sign up"/>
+                <input type = "submit" name="signup" value = "Đăng ký"/>
                 <br>
-                Đã sở hữu tài khoản? <a href='index.php?quanly=loginmb' tittle='login'>Log in ➝ </a> 
+                Đã sở hữu tài khoản? <a href='index.php?quanly=loginmb' tittle='login'>Đăng nhập ➝ </a> 
 </form>
 </div>
 <?php
@@ -71,7 +71,7 @@
             )");
 	    //Lưu tên đăng nhập
         $_SESSION['username'] = $username;
-	    header("location: /index.php?quanly=loginmb");
+	    header("location: /WEB-AO-QUAN/index.php?quanly=loginmb");
 		exit;
 }
 ?>
