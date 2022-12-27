@@ -22,7 +22,7 @@
  
 	if (isset($_POST['signup'])) 
 	{
-	    include('connect.php');
+	    include('ketnoti.php');
 	     
 	    //Lấy dữ liệu nhập vào
 	    $username = addslashes($_POST['username']);
