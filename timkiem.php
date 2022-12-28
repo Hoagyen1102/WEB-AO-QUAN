@@ -1,3 +1,4 @@
+<div class="pro-container">
 <?php
     include('ketnoi.php');
     $search = addslashes($_GET['timkiem']);
@@ -8,7 +9,6 @@
         $sql = mysqli_query($conn,$query);
         $num = mysqli_num_rows($sql);
         if ($num > 0 && $search != ""){
-        echo "<center><strong>KẾT QUẢ TÌM ĐƯỢC: $num $search</strong></center>";
     $i=1;
     while($row = mysqli_fetch_assoc($sql))
         {
@@ -34,3 +34,4 @@
         echo "Khong tim thay ket qua!";}
 }
 ?>
+</div>
