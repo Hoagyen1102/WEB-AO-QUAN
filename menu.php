@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <div class="menu">
     <ul class="list_menu">
         <li><a href="index.php?quanly=main">TRANG CHỦ</a></li>
@@ -14,8 +17,8 @@
                 <li><a href="index.php?quanly=phanloai&id=9">Phụ Kiện</a></li>
             </ul>
         </li>
-        <li><a href="#">VỀ CHÚNG TÔI</a></li>
-        <li><a href="#">TÀI KHOẢN</a></li>
+        <li><a href="VCT.php">VỀ CHÚNG TÔI</a></li>
+        <li><a href="user.php">TÀI KHOẢN</a></li>
     </ul>
 </div>
 <div class="clear"></div>
